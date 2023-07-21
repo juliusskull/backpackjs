@@ -157,13 +157,13 @@ In this code, we create two promises using the fetch() method to fetch data from
 
 We can then use the responses array in the then() block to handle the responses from both requests. If either promise rejects, the catch() block will handle the error.
 
-<h1>14-Remove numbers from a string</h1>
+<h1>15-Remove numbers from a string</h1>
 This function removes the numbers from a string
 <pre><code>
 const removeNumbers = word => word.replace(/\d/g, "")
 </code></pre>
 
-<h1>15-Remove whitespace from a string</h1>
+<h1>16-Remove whitespace from a string</h1>
 This function remove whitespace from a string
 <pre><code>
 const fruits = "Hola mundo";
