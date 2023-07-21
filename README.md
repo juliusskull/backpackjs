@@ -167,5 +167,5 @@ const removeNumbers = word => word.replace(/\d/g, "")
 This function remove whitespace from a string
 <pre><code>
 const fruits = "Hola mundo";
-let text = fruits.split(/\s+/).join(''); //Hola mundo
+let text = fruits.split(/\s+/).join(''); //Holamundo
 </code></pre>
